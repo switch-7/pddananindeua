@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@font-face{
+  font-family: 'FonteLogo';
+  src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+body{
+	background-image: url(../img/bgbiblia.jpg);
+	background-attachment: fixed;
+  	background-size: cover;
+  	z-index: -1;
+}
+.nav-tabs li a {
+      color: #777;
+  }  
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.7;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+  /*img#imgc1{
+    position: relative;
+    width: 40%;
+    height: 20%;
+    float: left;
+    margin-top: 100px; 
+  }
+    img#imgc2{
+    position: relative;
+    width: 40%;
+    height: 20%;
+    float: right;
+    margin-top: 100px; 
+  } */
+
+  figure.foto-legenda#fg1{
+    position: relative;
+    width: 40%;
+    height: 20%;
+    float: left;
+    margin-top: 140px;
+    opacity: .7;
+  }
+  figure.foto-legenda#fg2{
+    position: relative;
+    width: 40%;
+    height: 20%;
+    float: right;
+    margin-top: 140px;
+    opacity: .7;
+  }
+  figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+  }
+  figure.foto-legenda#fg1:hover{
+    opacity: 1;
+    transition: opacity 1s;
+  }
+  figure.foto-legenda#fg2:hover{
+    opacity: 1;
+    transition: opacity 1s;
+  }
+
+  figure.foto-legenda figcaption{
+    font-family: 'FonteLogo', serif;
+    text-shadow: 3px 3px #606060;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: .5;
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    color: white;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    text-decoration: ;
+  }
+  figure.foto-legenda:hover figcaption{
+    opacity: 1;
+  }

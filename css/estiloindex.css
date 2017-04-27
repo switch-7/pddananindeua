@@ -1,0 +1,106 @@
+body{
+  background-image: url("../img/bgbiblia.jpg");
+/* Background Referencia: http://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg */
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: -1;
+  
+}
+.mySlides {
+    display:none
+}
+.w3-left, .w3-right, .w3-badge {
+    cursor:pointer
+}
+.w3-badge {
+    height:13px;width:13px;padding:0
+}
+.nav-tabs li a {
+      color: #FFA500;
+  }  
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2F4F4F ;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #fff   !important;
+  }
+  .navbar-nav li a:hover {
+      color: #FF8C00 !important;
+  }
+  .navbar-nav li.active a {
+      color: #FFA500 !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  
+  .bg-1 { 
+      background-image: url("../profetasdeus.png");
+      margin-top: 50px;   
+  }
+  .bg-slideshow {
+      margin-top: 300px;
+  }
+  .bg-2 {
+      margin-top: 50px;
+      background-color: #4f7eb8;
+      font-family: "Georgia", Georgia;
+  
+  }
+  .bg-3 { 
+      background-color: #64c6de;
+      color: #000000;
+      font-family: "Georgia", Georgia;
+}
+footer .footer-above {
+  background-color: #2C3E50;
+}
+footer .footer-below {
+  background-color: #233140;
+}
+
+footer#rodape{
+  text-align: center;
+  clear: both;
+  border-top: 2.5px solid #606060;
+  background-color: #233140;
+  color: white;
+  font-family: "Georgia", Georgia;
+  }
+footer#rodape p{
+  color: white;
+  text-align: center;
+  font-family: "Georgia", Georgia;
+  
+}
+
+a:link {
+    color: #FF8C00;
+}
+  
+  /*.container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }*/
